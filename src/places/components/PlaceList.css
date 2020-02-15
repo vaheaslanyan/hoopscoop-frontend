@@ -1,0 +1,27 @@
+.place-list-grid {
+  display: grid;
+  grid-template-columns: 500px;
+  grid-column-gap: 2rem;
+  grid-row-gap: 1rem;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .place-list-grid {
+    grid-template-columns: 400px 400px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .place-list-grid {
+    grid-template-columns: 350px 350px 350px;
+    grid-column-gap: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .place-list-grid {
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-column-gap: 3rem;
+  }
+}
