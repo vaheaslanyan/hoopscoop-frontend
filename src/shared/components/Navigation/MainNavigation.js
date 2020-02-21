@@ -39,7 +39,7 @@ const MainNavigation = props => {
           <Link to="/">
             <img
               className="hs-logo"
-              src={`${process.env.REACT_APP_ASSET_URL}/uploads/images/HoopScoopLogo.png`}
+              src="https://res.cloudinary.com/hrs6ayhkh/image/upload/v1581811430/app/HoopScoopLogo_dq71wf.png"
               alt="HoopScoopLogo"
             />
           </Link>

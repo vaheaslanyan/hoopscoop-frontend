@@ -37,9 +37,7 @@ const Map = props => {
         position: marker.location,
         map: map,
         icon: {
-          url:
-            process.env.REACT_APP_ASSET_URL +
-            "/uploads/images/MapMarkerHoopScoop.png"
+          url: "http://maps.google.com/mapfiles/ms/micons/purple.png"
         }
       });
     });
